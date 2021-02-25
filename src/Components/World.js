@@ -37,7 +37,7 @@ class World extends Component{
 
                                 <tr>
                                 <td>{itm.country}
-                                <img  style={{ width:'64px',marginLeft:'10px'}} src={itm.countryInfo.flag}/></td>
+                                <img  style={{ width:'64px',marginLeft:'10px'}} src={itm.countryInfo.flag} alt=""/></td>
                                 <td>{itm.cases}</td>
                                 <td>{itm.recovered}</td>
                                 <td>{itm.deaths}</td>
